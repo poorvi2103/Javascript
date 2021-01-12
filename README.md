@@ -1,2 +1,2 @@
 # Javascript
-Basic programs of javascript
+Basic programs of javascript.
