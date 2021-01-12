@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="bulb.css">
+        <script>
+            function light(value)
+            {
+                    document.getElementById("bulb").src=value;
+   
+            }
+
+            
+        </script>
+    </head>
+<body>
+<div>
+<img id="bulb" src="../OFFbulb.jpg"/>
+<br>
+<button id="on" onclick="light('../ONbulb.jpg')">Turn On</button>
+<button id="off" onclick="light('../OFFbulb.jpg')">Turn Off</button>
+</div>
+</body>
+</html>
+
+
